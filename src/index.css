@@ -1,0 +1,104 @@
+body {
+  background-color: rgb(25, 25, 25);
+  color: white;
+  font-family: Arial;
+}
+
+p {
+  font-weight: bold;
+}
+
+.main {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.move-icon {
+  height: 50px;
+}
+
+.move-button img {
+  width: 3rem;
+}
+
+.move-button {
+  background-color: transparent;
+  border: 3px solid white;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 60px;
+  margin-right: 10px;
+  place-content: center;
+  cursor: pointer;
+}
+
+.move-button:active {
+  background-color: rgb(245, 238, 238);
+  transition: 0.3s ease-in-out;
+}
+
+.result {
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+.user {
+  font-size: 1.5rem;
+}
+
+.computer {
+  font-size: 1.5rem;
+}
+
+.score {
+  margin-top: 60px;
+}
+
+.wins {
+  color: rgb(12, 217, 12);
+}
+
+.losses {
+  color: rgb(216, 51, 51);
+}
+
+.ties {
+  color: rgb(159, 157, 157);
+}
+
+/* .button-reset-container {
+  margin-top: 1rem;
+} */
+
+.reset-score-button,
+.auto-play-button {
+  background-color: white;
+  border: none;
+  font-size: 15px;
+  padding: 8px 15px;
+  cursor: pointer;
+  margin: 0.5rem;
+  border-radius: 3px;
+}
+.reset-score-button {
+  background-color: red;
+  color: white;
+}
+
+.auto-play-button {
+  background-color: dodgerblue;
+  color: whitesmoke;
+}
+
+.game-button {
+  margin: 1rem;
+}
